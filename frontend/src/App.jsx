@@ -5,7 +5,7 @@ import TaskItem from "./components/TaskItem";
 import FilterBar from "./components/FilterBar";
 import Stats from "./components/Stats";
 
-const API = "https://task-manager-fullstack-yjub.onrender.com/";
+const API = "https://task-manager-fullstack-yjub.onrender.com";
 
 function App() {
   const [tasks, setTasks] = useState([]);
